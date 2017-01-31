@@ -28,7 +28,12 @@
   <div align="center">
     <h1>Congratulations</h1>
     <h2>This application was deployed using AWS CodeDeploy.</h2>
-    <p>This is awesome!</p>
+    <ol>
+      <?php
+        for( $i = 0; i<100; i++)
+          echo "<li>Sample data</li>";
+      ?>
+    </ol>
   </div>
 </body>
 </html>
