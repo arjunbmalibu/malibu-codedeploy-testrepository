@@ -31,7 +31,7 @@
     <ol>
       <?php
         for( $i = 0; i<100; i++)
-          echo "<li>Sample data</li>";
+          echo "<li>Sample data - testing</li>";
       ?>
     </ol>
   </div>
